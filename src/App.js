@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Navb from './Compo/Navbar';
+import {BrowserRouter , Routes,Route} from 'react-router-dom'
+import PlaceToVisit from './Compo/Visit-places/PlaceVisit';
+// import Placevisit from './Compo/Visit-places/Visit2';
+import Home from './Compo/Home'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+  < BrowserRouter>
+  <Navb/>
+  {/* < Home /> */}
+  {/* <Carousels/>
+  <Chennai/>
+  <Kodaikanal/>
+  <Madurai/>
+  <Kumbakonam />
+  <Theni />
+  < Rameshwaram />
+  < Ooty />
+  < Kaniyakumari/>
+  < Yercaud />
+  <Hogenakkal/> */}
+<Routes>
+          <Route  path="/" element={< Home/>}/>
+          <Route path="/PlaceToVisit" element={<PlaceToVisit />} />
+        </Routes>
+
+  </BrowserRouter>
+
+
+  </div>
   );
 }
 

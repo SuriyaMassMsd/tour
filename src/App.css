@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+#bg-color{
+  background-color: rgb(189, 189, 189) !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#car-img{
+  width: 100%;
+  height: 605px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#loc-link{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+  text-indent: 50px;
+  text-align: justify;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.card{
+  width: 260px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+#lk-img{
+  width: 600px;
+  height: 340px;
+}
+
+#lk-c2{
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+#hogenakkal{
+  margin-top: 80px;
+}
+
+#chennai{
+  margin-top: 80px;
+}
+
+#kodaikanal{
+  margin-top: 80px;
+}
+
+#madurai{
+  margin-top: 80px;
+}
+
+.text-indent {
+  text-indent: 4em;
+  text-align: justify;
 }
