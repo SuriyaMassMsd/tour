@@ -10,7 +10,7 @@ function KaniyakumariCity() {
         <h3>Kaniyakumari</h3>
         <h3>Tourist Places Visit</h3>
       </div>
-      {/* 1st content*/}
+
       <div
         style={{ marginTop: "80px" }}
         className="d-flex justify-content-center "
@@ -43,7 +43,6 @@ function KaniyakumariCity() {
         </div>
       </div>
 
-      {/* 2nd content*/}
       <div className="mt-5">
         <div
           style={{ marginTop: "80px" }}
@@ -80,7 +79,6 @@ function KaniyakumariCity() {
         </div>
       </div>
 
-      {/* 3st content*/}
       <div
         style={{ marginTop: "80px" }}
         className="d-flex justify-content-center "
@@ -116,7 +114,6 @@ function KaniyakumariCity() {
         </div>
       </div>
 
-      {/* 4th content*/}
       <div className="mt-5">
         <div
           style={{ marginTop: "80px" }}

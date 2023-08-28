@@ -10,7 +10,7 @@ function YercaudCity() {
         <h3>Yercaud</h3>
         <h3>Tourist Places Visit</h3>
       </div>
-      {/* 1st content*/}
+
       <div
         style={{ marginTop: "80px" }}
         className="d-flex justify-content-center "
@@ -44,7 +44,6 @@ function YercaudCity() {
         </div>
       </div>
 
-      {/* 2nd content*/}
       <div className="mt-5">
         <div
           style={{ marginTop: "80px" }}
@@ -80,7 +79,6 @@ function YercaudCity() {
         </div>
       </div>
 
-      {/* 3st content*/}
       <div
         style={{ marginTop: "80px" }}
         className="d-flex justify-content-center "
@@ -111,7 +109,6 @@ function YercaudCity() {
         </div>
       </div>
 
-      {/* 4th content*/}
       <div className="mt-5">
         <div
           style={{ marginTop: "80px" }}

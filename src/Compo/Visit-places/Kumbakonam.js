@@ -10,7 +10,7 @@ function KumbakonamCity() {
         <h3>Kumbakonam</h3>
         <h3>Tourist Places Visit</h3>
       </div>
-      {/* 1st content*/}
+
       <div
         style={{ marginTop: "80px" }}
         className="d-flex justify-content-center "
@@ -44,7 +44,6 @@ function KumbakonamCity() {
         </div>
       </div>
 
-      {/* 2nd content*/}
       <div className="mt-5">
         <div
           style={{ marginTop: "80px" }}
@@ -82,7 +81,6 @@ function KumbakonamCity() {
         </div>
       </div>
 
-      {/* 3st content*/}
       <div
         style={{ marginTop: "80px" }}
         className="d-flex justify-content-center "
@@ -117,7 +115,6 @@ function KumbakonamCity() {
         </div>
       </div>
 
-      {/* 4th content*/}
       <div className="mt-5">
         <div
           style={{ marginTop: "80px" }}
