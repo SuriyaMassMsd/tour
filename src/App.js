@@ -1,10 +1,11 @@
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navb from './Compo/Navbar';
 import {BrowserRouter , Routes,Route} from 'react-router-dom'
 import PlaceToVisit from './Compo/Visit-places/PlaceVisit';
 // import Placevisit from './Compo/Visit-places/Visit2';
 import Home from './Compo/Home'
+import  Accordion from './Compo/Time_To_visit/Accordian';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 <Routes>
           <Route  path="/" element={< Home/>}/>
           <Route path="/PlaceToVisit" element={<PlaceToVisit />} />
+          <Route path="/Accordian" element={<Accordion />} />
         </Routes>
 
   </BrowserRouter>
