@@ -235,3 +235,45 @@
   text-indent: 60px;
   text-align: justify;
 }
+
+#food-para{
+  text-indent: 50px;
+  text-align: justify;
+  word-spacing: 5px;
+  line-height: 1.7;
+}
+
+#food-img{
+  margin-left: 600px;
+  float: right;
+  top: 200px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+#food-imgg{
+  margin-left: 600px;
+  float: right;
+  top: 465px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+
+#food2-img{
+  margin-left: 880px;
+  float: right;
+  top: 200px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+
+#food2-imgg{
+  margin-left: 880px;
+  float: right;
+  top: 465px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}

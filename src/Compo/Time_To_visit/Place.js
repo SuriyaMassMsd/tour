@@ -37,7 +37,7 @@ function Time() {
                                 <div className="col-lg-6">
                                     <div className="" >
 
-                                        <div className="card w-100 h-100 cardz" >
+                                        <div className="card w-100 h-40 cardz" >
                                             <div className="card-header bg-white d-flex justify-content-between align-items-center my-3">
                                                 <h4 className='text-capitalize text-center fs-sm-4 fw-bold me-4'>
                                                     more about best time to travel {time.title}
@@ -123,7 +123,7 @@ function Time() {
                                 <div className="col-lg-6 col-sm-12 h-100 mb-5 ">
                                     <div className="" >
 
-                                        <div className="card w-100 cardz" >
+                                        <div className="card w-100 h-40 cardz" >
                                             <div className="card-header bg-white d-flex justify-content-between align-items-center my-3">
                                                 <h4 className='text-capitalize text-center fs-sm-4 fw-bold me-4'>
                                                     more about best time to travel {time.title}

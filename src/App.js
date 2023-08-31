@@ -6,6 +6,7 @@ import PlaceToVisit from './Compo/Visit-places/PlaceVisit';
 // import Placevisit from './Compo/Visit-places/Visit2';
 import Home from './Compo/Home'
 import  Accordion from './Compo/Time_To_visit/Accordian';
+import Food from './Compo/Food/Food'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route  path="/" element={< Home/>}/>
           <Route path="/PlaceToVisit" element={<PlaceToVisit />} />
           <Route path="/Accordian" element={<Accordion />} />
+          <Route path="/Food" element={<Food />} />
         </Routes>
 
   </BrowserRouter>
