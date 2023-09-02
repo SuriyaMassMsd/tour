@@ -14,7 +14,7 @@ function Navb() {
             <Nav.Link  className="nav-link my-1 mx-2 text-white text-capitalize fw-bold "  href="/">Home</Nav.Link>
             <Nav.Link  className="nav-link my-1 mx-2 text-white text-capitalize fw-bold "  href="/Placetovisit">Places to Visit</Nav.Link>
             <Nav.Link  className="nav-link my-1 mx-2 text-white text-capitalize fw-bold "  href="/Accordian">Best Time to Visit</Nav.Link>
-            <Nav.Link  className="nav-link my-1 mx-2 text-white text-capitalize fw-bold "  href="#link">packages</Nav.Link>
+            <Nav.Link  className="nav-link my-1 mx-2 text-white text-capitalize fw-bold "  href="/Package">packages</Nav.Link>
             <Nav.Link  className="nav-link my-1 mx-2 text-white text-capitalize fw-bold "  href="#link">destination</Nav.Link>
             <Nav.Link  className="nav-link my-1 mx-2 text-white text-capitalize fw-bold "  href="Food">food</Nav.Link>
             
